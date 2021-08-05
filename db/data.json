@@ -1,6 +1,29 @@
 {
   "users": [],
-  "ingredients": [],
-  "recipes": [],
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Buttered Toast",
+      "ingredients": ["Bread", "Butter"],
+      "instructions": [
+        "Place bread in toaster",
+        "Select doneness",
+        "Push start",
+        "When done, carefully remove toast and put butter on it"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Glass of water",
+      "ingredients": ["Water"],
+      "instructions": ["Pour water in glass"]
+    },
+    {
+      "id": 3,
+      "name": "Boiled water",
+      "ingredients": ["Water"],
+      "instructions": ["Place water in pot", "Turn burner on high", "Turn off burner when water boils"]
+    }
+  ],
   "message": { "message": "Hello from JSON-Server" }
 }

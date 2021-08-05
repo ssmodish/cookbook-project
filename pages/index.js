@@ -1,8 +1,11 @@
+const { default: Navbar } = require('../components/Navbar')
+
 const Home = () => {
   return (
     <div>
-      Home
+      <Navbar />
     </div>
   )
 }
+
 export default Home
